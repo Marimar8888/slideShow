@@ -2,24 +2,38 @@ import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/scss/image-gallery.scss";
 
-
+import image1 from './../../static/assets/images/carousel/image1.jpg';
+import image2 from './../../static/assets/images/carousel/image2.jpg';
+import image3 from './../../static/assets/images/carousel/image3.jpg';
+import image4 from './../../static/assets/images/carousel/image4.jpg';
+import image5 from './../../static/assets/images/carousel/image5.jpg';
+import image6 from './../../static/assets/images/carousel/image6.jpg';
 
 const images = [
   {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
+    original: image1,
+    thumbnail: image1,
+
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original: image2,
+    thumbnail: image2,
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
+    original: image3,
+    thumbnail: image3,
   },
   {
-    original: "https://picsum.photos/id/1023/1000/600/",
-    thumbnail: "https://picsum.photos/id/1023/250/150/",
+    original: image4,
+    thumbnail: image4,
+  },
+  {
+    original: image5,
+    thumbnail: image5,
+  },
+  {
+    original: image6,
+    thumbnail: image6,
   },
 ];
 
@@ -37,6 +51,7 @@ export default class App extends Component {
       autoPlay = {true}
       showBullets = {true}
       slideInterval={3000}
+      slideDuration = {1000}
       renderItem={(item) => (
         <div style={{ width: '80vw', height: '400px', margin: 'auto' }}>
           <img
