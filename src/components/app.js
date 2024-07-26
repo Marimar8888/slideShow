@@ -13,7 +13,6 @@ const images = [
   {
     original: image1,
     thumbnail: image1,
-
   },
   {
     original: image2,
