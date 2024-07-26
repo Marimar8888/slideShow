@@ -35,8 +35,10 @@ export default class App extends Component {
       showThumbnails = {false}
       showFullscreenButton= {false}
       autoPlay = {true}
+      showBullets = {true}
+      slideInterval={3000}
       renderItem={(item) => (
-        <div style={{ width: '80vw', height: '300px', margin: 'auto' }}>
+        <div style={{ width: '80vw', height: '400px', margin: 'auto' }}>
           <img
             src={item.original}
             alt={item.originalAlt}
