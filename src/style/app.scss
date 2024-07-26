@@ -1,0 +1,19 @@
+/* Estilo para la flecha izquierda */
+button.image-gallery-icon.image-gallery-right-nav {
+    right:15% !important; /* Ajusta el espacio desde el borde izquierdo */
+    top: 50% !important; /* Centra verticalmente */
+    transform: translateY(-50%) !important; /* Ajusta la posición verticalmente para centrar */
+    padding: 10px !important; /* Opcional: espacio alrededor del ícono */
+    z-index: 10 !important; /* Asegura que la flecha esté encima de las imágenes */
+    width: 30px;
+  }
+  
+  /* Estilo para la flecha derecha */
+  button.image-gallery-icon.image-gallery-left-nav {
+    left: 10% !important; /* Ajusta el espacio desde el borde derecho */
+    top: 50% !important; /* Centra verticalmente */
+    transform: translateY(-50%) !important; /* Ajusta la posición verticalmente para centrar */
+    padding: 10px !important; /* Opcional: espacio alrededor del ícono */
+    z-index: 10 !important; /* Asegura que la flecha esté encima de las imágenes */
+    width: 30px;
+  }
